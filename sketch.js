@@ -50,7 +50,7 @@ function setup() {
 	rightwall = Bodies.rectangle(500, 610, 20, 100, {isStatic:true});
 	
 	
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:1, isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0, isStatic:true});
 	World.add(world, packageBody);
 
 	//Create a Ground
